@@ -1,7 +1,7 @@
 /* File styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f0e5d8;
 }
 
 h1 {
@@ -14,4 +14,42 @@ h1 {
 p {
   color: #333;
   font-size: 18px;
+}
+ul {
+  list-style-type: disc;
+}
+/* dấu vuông */
+ul.square {
+  list-style-type: square;
+}
+/* Dấu tròn */
+ul.circle {
+  list-style-type: circle;
+}
+/* không dấu */
+ul.no-bullet {
+  list-style-type: none;
+}
+/* ol mặc định: 1,2,3 */
+ol {
+  list-style-type: decimal;
+}
+/* a,b,c */
+ol.abcd {
+  list-style-type: lower-alpha;
+}
+/* A,B,C */
+ol.ABCD {
+  list-style-type: upper-alpha;
+}
+/* i,ii,iii */
+ol.lower-roman {
+  list-style-type: lower-roman;
+}
+ol.upper-roman {
+  list-style-type: upper-roman;
+}
+/* Tùy chỉnh bộ đếm */
+ol.reset {
+  counter-reset: item;
 }

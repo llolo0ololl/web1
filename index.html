@@ -29,10 +29,11 @@
     <h1>Bài 14: multi page website</h1>
     <!-- Thêm các link điều hướng -->
     <!-- 1. Điều hướng về trang chủ -->
-
+    <a href="/index.html">Home</a>
     <!-- 2. Điều hướng đến contact.html -->
-
+    <a href="/4. multi page website/More content/contact.html">contact</a>
     <!-- 3. Điều hướng đến my-skill.html -->
+    <a href="/4. multi page website/More content/my-skill.html">My Skill</a>
 
     <h1>Welcome to My Website!</h1>
     <hr />
@@ -68,7 +69,7 @@
     <hr />
     <pre>
       Thẻ &lt;pre&gt; trong HTML được sử dụng để hiển thị văn bản với định dạng giữ nguyên (preformatted text),
-           bao gồm các khoảng trắng và dòng mới, tức là tất cả các khoảng trắng,
+          bao gồm các khoảng trắng và dòng mới, tức là tất cả các khoảng trắng,
       tab và dòng mới sẽ được trình duyệt giữ nguyên khi hiển thị văn bản.
         Điều này rất hữu ích khi bạn muốn hiển thị mã nguồn,
       cấu trúc hoặc văn bản có định dạng đặc biệt mà không muốn các khoảng trắng hoặc thụt lề bị mất đi.
@@ -88,5 +89,64 @@
       }
       &lt;/code&gt;&lt;/pre&gt;
     </code></pre>
+    <hr />
+    <!-- ---------------------Thẻ input---------------------------- -->
+    <h1>Học thẻ "input"</h1>
+    <code>&lt;input type="type-of-input" name="name" value="value" /&gt;</code>
+    <ul class="square">
+      <li>
+        <span style="font-weight: bold">type:</span> xác định loại của input, ví
+        dụ: text, password, checkbox, radio, submit,...
+      </li>
+      <li>
+        <span style="font-weight: bold">name:</span>Tên của trường input, sẽ
+        được sử dụng khi gửi dữ liệu trong biểu mẫu.
+      </li>
+      <li>
+        <span style="font-weight: bold">value:</span> Giá trị mặc định của
+        trường input
+      </li>
+    </ul>
+    <h2>Ví dụ:</h2>
+    <div>
+      <!-- username -->
+      <p>1. type: text vs password</p>
+      <input type="text" name="username" placeholder="Nhập tên người dùng" />
+      <br />
+      <!-- password -->
+      <input type="password" name="password" placeholder="Nhập mật khẩu" />
+      <br />
+      <p>2. Email</p>
+      <input type="email" name="email" placeholder="Nhập email" />
+      <br />
+      <p>3. number: nhập số</p>
+      <input
+        type="number"
+        name="age"
+        placeholder="Nhập tuổi"
+        min="18"
+        max="100"
+      />
+      <br />
+      <p>4. date</p>
+      <input type="date" name="birtday" />
+      <br />
+      <p>5.Checkbox</p>
+      <input type="checkbox" name="supscribe" value="yes" />
+      <br />
+      <p>6. radio: lựa chọn nhóm các lựa chọn</p>
+      <input type="radio" name="gender" value="male" />
+      <input type="radio" name="gender" value="female" />
+      <br />
+      <p>7.submit: nút gủi biểu mẫu</p>
+      -
+      <input type="submit" value="send" />
+      <br />
+    </div>
+
+    <!-- ------------------------Học Display, Opacity, Visibility---------------------------------- -->
+    <hr />
+    <h1>Học Display, Opacity, Visibility</h1>
+    <hr />
   </body>
 </html>
