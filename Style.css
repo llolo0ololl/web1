@@ -53,3 +53,11 @@ ol.upper-roman {
 ol.reset {
   counter-reset: item;
 }
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  /* visibility: hidden; */
+  /* display: none; */
+  opacity: 0;
+}
